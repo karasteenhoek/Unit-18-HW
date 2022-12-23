@@ -1,0 +1,195 @@
+/* Navigation CSS */
+body {
+    background-color: #333E49;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #475458;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float:right;
+    padding: 10px;
+    width: 23%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.countdownNav {
+    float: left;
+    height: 80px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 10px;
+}
+
+.navigation > button {
+    position: absolute;
+    top: 11px;
+    right: 7px;
+    background-color: #BF5700;
+    font-weight: bold;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 16px;
+    color: white;
+}
+
+.back > a{
+   float: left;
+   margin: 5px;
+}
+
+.sierraImg {
+    float: left;
+}
+
+.routeDescription {
+    float:left;
+    color: white;
+}
+
+.sierraContent {
+    float:inline-end;
+    position: relative;
+    padding: 60px;
+    margin: 40px;
+    max-width: 1200px;
+    color: white;
+}
+
+.totalMileage {
+    float: inline-end;
+    color: white;
+}
+
+.sierraButton {
+    background-color: #469BBB;
+    color: white;  
+    font-size: 16px;
+    border-radius: 30px;
+    width: 128px;
+    height: 36px;
+    border: none;
+    text-align: center;
+    border-radius: 16px;
+    filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
+}
+
+.sierraStops {
+    float:left;
+    color: white;
+    padding: 10px;
+}
+
+/* Footer CSS */
+
+footer {
+    background-color: #475458;
+}
+
+.footerButtons {
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+}
+
+.footerButton1 {
+    font-size: 20px;
+    border-radius: 16px;
+    color: white;
+    background-color: #BF5700;
+
+}
+
+.footerButton2 {
+    font-size: 20px;
+    border-radius: 16px;
+    color: white;
+    background-color: #BF5700;
+}
+
+.footerText {
+    font-size: 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mediumLight {
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerInput img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerInput button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.smallRegular {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
